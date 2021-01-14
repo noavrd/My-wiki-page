@@ -1,2 +1,2 @@
 # My-wiki-page
-A wiki page aout music
+A wiki page about music
