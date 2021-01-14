@@ -1,0 +1,13 @@
+.navbar {
+position: fixed;
+top: 0;
+width: 100%;
+background-color: blanchedalmond;
+}
+ul{
+    list-style: none;
+}
+li {
+display: inline;
+padding: 2%;
+}
