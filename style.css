@@ -1,13 +1,90 @@
+*{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1.2vw;
+box-sizing: border-box;
+}
+body {
+display: block;
+margin: 0%;
+}
 .navbar {
 position: fixed;
 top: 0;
 width: 100%;
-background-color: blanchedalmond;
+background-color: #d1bfbf;
+
 }
 ul{
-    list-style: none;
+list-style-type: none;
+margin: 0;
+padding: 1.5vh 1.5vh;
 }
-li {
+li a{
+text-decoration: none;
+color: black;
+font-size: 1.8vw;
+font-family:fantasy;
+}
+li{
 display: inline;
-padding: 2%;
+}
+/* when the mouse is on the page*/
+li a:hover {
+background-color: #951717;
+color: white;
+padding: 1.5vh 1.5vh;
+}
+
+.active{
+background-color:#951717 ;
+color: white;
+padding: 1.5vh 1.5vh;
+}
+section {
+padding-top: 6vh;
+padding-left: 2vw;
+padding-right: 2vw;
+}
+.details {
+text-align:center;
+
+}
+::placeholder {
+text-align:center;
+
+}
+
+#github-image {
+margin-left: 37vw;
+width: 7vw;
+height: 5vh;
+}
+#codepen-image {
+margin-left: 6vw;
+width: 7vw;
+height: 5vh;
+}
+.my-contact {
+text-align:center;
+}
+
+#headline {
+text-align:center;
+}
+.findme {
+margin-top: 5vh;
+padding-bottom: 1vh;
+padding-top: 5vh;
+background-color: #d1bfbf;
+}
+
+.mozart-pic {
+float: right;
+height: 25vh;
+width: 10vw;
+padding-bottom: 2vh;
+}
+.par-pic
+{
+margin-right: 15vw;
 }
