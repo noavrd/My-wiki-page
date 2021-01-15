@@ -57,12 +57,12 @@ li{
 /* when the mouse is on the page*/
 li a:hover {
     background-color: var(--sec-color);
-    color: var(white);
+    color: var( --write-color);
     padding: 1.5vh 1.5vh;
 }
 .active{
     background-color:var(--sec-color);
-    color: var(white);
+    color: var( --write-color);
     padding: 1.5vh 1.5vh;
 }
 section {
